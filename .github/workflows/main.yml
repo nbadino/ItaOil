@@ -3,7 +3,7 @@ name: Download and rename files
 on:
   schedule:
     # Run this workflow every day at 2 PM Rome time
-    - cron: '0 14 * * *'
+    - cron: '0 12 * * *'
   workflow_dispatch:
 
 jobs:
